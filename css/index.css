@@ -1,0 +1,273 @@
+.logo{
+    width: 187px;
+}
+
+.cabecalho{
+    background-color: var(--verde);
+    padding: 40px 135px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--branco);
+    
+}
+
+li a {
+    text-decoration: none;
+    color: var(--branco);
+}
+
+.menu-responsivo{
+    display: none;
+}
+
+.hero{
+    background-color: var(--verde);
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding: 40px 130px 80px 130px;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    color: var(--branco);
+    width: 415px;
+}
+
+.hero-text h2{
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%; /* 20px */
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+
+.hero-text h3{
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.hero-text p{
+    font-family: "Work Sans";
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.hero-text button{
+    border: none;
+    width: 170px;
+    border-radius: 5px;
+    padding: 13px 47px;
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 55px;
+    padding: 60px 130px;
+}
+
+.partners-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    text-align: center;
+}
+
+.partners-texto h2 {
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 125%; 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: var(--verde);
+}
+
+.partners-texto h3 {
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.partners-texto p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+}
+
+.partners-img {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 68px;
+}
+
+.partners button {
+    width: 170px;
+
+    background-color: var(--dark);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 29px;
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.hero-dois{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 130px;
+}
+
+.hero-dois-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 462px;
+}
+
+.hero-dois h3 {
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.hero-dois p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+
+    color: var(--cinza);
+}
+
+
+.hero-dois button {
+    width: 170px;
+
+    background-color: var(--dark);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 29px;
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.hero-tres{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 130px;
+}
+
+.hero-tres-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 462px;
+}
+
+.hero-tres h3 {
+    font-family: "Crimson Text";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+.hero-tres p {
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; 
+
+    color: var(--cinza);
+}
+
+
+.hero-tres button {
+    width: 170px;
+
+    background-color: var(--dark);
+    color: var(--branco);
+    border: none;
+    border-radius: 8px;
+    padding: 13px 29px;
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.footer {
+    background-color: var(--verde);
+    padding: 50px 130px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-img {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.footer p{
+    color: var(--branco);
+
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
